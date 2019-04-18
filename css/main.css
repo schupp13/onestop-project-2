@@ -1,0 +1,87 @@
+body{
+color:lightgrey;
+background-color: #8bb4bb;
+font-family: 'Cinzel', serif;
+}
+h1{
+  font-size: 100px;
+  font-weight: bold;
+  color:#8bb4bb;
+  font-family: 'Cinzel', serif;
+}
+
+nav{
+  margin-bottom: 70px;
+}
+
+a{
+  color:inherit;
+  text-decoration: none;
+}
+a:hover{
+  color:inherit;
+}
+
+.jumbotron{
+  min-height: 300px;
+  display:flex;
+  flex-direction: column;
+  justify-content:flex-start;
+  align-items: center;
+  background-color: lightgrey;
+  margin-bottom: 0;
+}
+.jumbotron p{
+  font-size: 50px;
+  font-family: 'Cinzel', serif;
+  color:#8bb4bb;
+}
+
+
+.nav-menu{
+  display: flex;
+justify-content: space-between;
+}
+
+.nav-menu li{
+  padding: 15px;
+  color: lightgrey;
+  background-color: #8bb4bb;
+  font-size: 1.2em;
+  flex:1;
+  list-style: none;
+
+}
+.nav-menu a{
+  text-decoration: none;
+}
+
+.nav-menu li:hover{
+  background-color: lightgrey;
+  color:#8bb4bb;
+}
+.nav-active{
+  background-color: lightgrey;
+  color:#8bb4bb;
+}
+
+
+
+@media all and (max-width: 600px) {
+
+  .nav-menu {
+    flex-wrap: wrap;
+  }
+
+  .nav-menu li {
+    flex-basis: 50%;
+  }
+
+}
+
+@media all and (max-width: 400px) {
+  .nav-menu > li {
+    flex-basis: 100%;
+  }
+
+}

@@ -4,9 +4,7 @@ background-color: #8bb4bb;
 font-family: 'Cinzel', serif;
 }
 h1{
-  font-size: 100px;
-  font-weight: bold;
-  color:#8bb4bb;
+
   font-family: 'Cinzel', serif;
 }
 
@@ -30,6 +28,12 @@ a:hover{
   align-items: center;
   background-color: lightgrey;
   margin-bottom: 0;
+
+  color:#8bb4bb;
+}
+.jumbotron h1{
+  font-size: 100px;
+  font-weight: bold;
 }
 .jumbotron p{
   font-size: 50px;
@@ -60,9 +64,15 @@ justify-content: space-between;
   background-color: lightgrey;
   color:#8bb4bb;
 }
-.nav-active{
+#li-active{
   background-color: lightgrey;
   color:#8bb4bb;
+}
+
+
+.pageHeader{
+  display: flex;
+  justify-content: center;
 }
 
 

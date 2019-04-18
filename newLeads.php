@@ -15,45 +15,34 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 <link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">
 <link rel="stylesheet" href="css/main.css">
-<link rel="stylesheet" href="css/admin.css">
-    <title>Admin Page</title>
+<link rel="stylesheet" href="css/newLeads.css">
+    <title>New Leads</title>
   </head>
   <body>
     <div class="jumbotron vertical-align-center">
-      <h1>Administrator Page</h1>
-      <p>Manage the team</p>
+      <h1>New Leads</h1>
+      <p>Pick your next customer</p>
     </div>
 
     <nav>
       <ul class="container nav-menu">
-        <a href="#" ><li class="nav-active">Admin Page</li></a>
-        <a href="#"><li>One Stop Realtors</li></a>
-        <a href="#"><li>New Leads</li></a>
-        <a href="#"><li>Assigned Leads</li></a>
-        <a href="#"><li>Bucket Leads</li></a>
-        <a href="#"><li>Logout</li></a>
+        <a href="admin.php" ><li>Admin Page</li></a>
+        <a href="realtors.php"><li>One Stop Realtors</li></a>
+        <a href="newLeads.php"><li id="li-active">New Leads</li></a>
+        <a href="assignedLeads.php"><li>Assigned Leads</li></a>
+        <a href="bucketLeads.php"><li>Bucket Leads</li></a>
+        <a href="index.php"><li>Logout</li></a>
       </ul>
     </nav>
+
     <div class="container">
       <div class="row">
-        <div class="col-lg-4">
-          <div class="card" style="width:100%">
-            <img class="card-img-top" src="images/img_avatar1.png" alt="Card image">
-            <div class="card-body">
-              <h4 class="card-title">John Doe</h4>
-              <p class="card-text">Some example text.</p>
-              <a href="#" class="btn btn-primary">See Profile</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-8">
-          <h3>Your Leads</h3>
+        <div class="col-lg-12 pageHeader">
+          <h3>New Leads</h3>
         </div>
 
       </div>
 
     </div>
-
-
   </body>
 </html>

@@ -1,5 +1,5 @@
 body{
-color:lightgrey;
+color:white;
 background-color: #8bb4bb;
 font-family: 'Cinzel', serif;
 }
@@ -21,12 +21,12 @@ a:hover{
 }
 
 .jumbotron{
-  min-height: 300px;
+  max-height: 300px;
   display:flex;
   flex-direction: column;
   justify-content:flex-start;
   align-items: center;
-  background-color: lightgrey;
+  background-color: white;
   margin-bottom: 0;
 
   color:#8bb4bb;
@@ -35,6 +35,7 @@ a:hover{
   font-size: 100px;
   font-weight: bold;
 }
+
 .jumbotron p{
   font-size: 50px;
   font-family: 'Cinzel', serif;
@@ -44,12 +45,12 @@ a:hover{
 
 .nav-menu{
   display: flex;
-justify-content: space-between;
+  justify-content: space-between;
 }
 
 .nav-menu li{
   padding: 15px;
-  color: lightgrey;
+  color: white;
   background-color: #8bb4bb;
   font-size: 1.2em;
   flex:1;
@@ -61,11 +62,11 @@ justify-content: space-between;
 }
 
 .nav-menu li:hover{
-  background-color: lightgrey;
+  background-color: white;
   color:#8bb4bb;
 }
 #li-active{
-  background-color: lightgrey;
+  background-color: white;
   color:#8bb4bb;
 }
 

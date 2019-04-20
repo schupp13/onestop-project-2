@@ -1,16 +1,20 @@
 
 .form-container{
   margin-top: 70px;
-  background-color: lightgrey;
-  width: 30%;
+  background-color: white;
   color:#8bb4bb;
-
+  max-width: 500px;
 }
 
 .form-container h3{
   padding:10px;
 
 }
+.form-container input{
+  background-color: lightgrey;
+
+}
+
 .submit-button{
   padding:10px;
 }

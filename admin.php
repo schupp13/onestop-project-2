@@ -43,8 +43,10 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-6">
-        <button type="button" class="btn btn-info btn-block">Add New Lead</button>
+
         <div class="container d-flex-column  form-container">
+          <button data-toggle="collapse" data-target="#newLead" class="btn btn-info btn-block ">Add New Lead</button>
+          <div id="newLead" class="collapse" >
           <div class="adminForm">
             <div class="d-flex justify-content-center">
               <h3>New Lead</h3>
@@ -92,10 +94,13 @@
             </form>
           </div>
         </div>
+      </div>
         </div>
         <div class="col-lg-6">
-          <button type="button" class="btn btn-info btn-block">Add New Realtor</button>
-          <div class="adminForm">
+          <button data-toggle="collapse" data-target="#newRealtor" class="btn btn-info btn-block ">Add New Realtor</button>
+          <div id="newRealtor" class="collapse" >
+          <div class="container d-flex-column  form-container adminForm">
+
             <div class="d-flex justify-content-center">
               <h3>New Realtor</h3>
             </div>

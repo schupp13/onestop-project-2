@@ -37,7 +37,7 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-4">
-          <div class="card" style="width:50%">
+          <div class="card" style="width:70%">
             <img class="card-img-top" src="images/img_avatar1.png" alt="Card image">
             <div class="card-body">
               <h4 class="card-title">John Doe</h4>
@@ -48,6 +48,91 @@
         </div>
         <div class="col-lg-8">
           <h3>Your Leads</h3>
+          <button type="button" class="btn btn-info btn-block">Unqulified</button>
+          <div class="container unassigned-table-div">
+            <table>
+              <tr>
+                <th>Customer Id</th>
+                <th>Customer Name</th>
+                <th>Property</th>
+                <th>Customer Status</th>
+              </tr>
+              <tr>
+                <td>5</td>
+                <td>Mike Tyson</td>
+                <td>114 main lane </td>
+                <td>unass</td>
+              </tr>
+            </table>
+         </div>
+         <button type="button" class="btn btn-info btn-block">Made First Contact</button>
+         <div class="container unassigned-table-div">
+           <table>
+             <tr>
+               <th>Customer Id</th>
+               <th>Customer Name</th>
+               <th>Property</th>
+               <th>Customer Status</th>
+             </tr>
+             <tr>
+               <td>5</td>
+               <td>Mike Tyson</td>
+               <td>114 main lane </td>
+               <td>unass</td>
+             </tr>
+           </table>
+        </div>
+        <button type="button" class="btn btn-info btn-block">Showed Property</button>
+        <div class="container unassigned-table-div">
+          <table>
+            <tr>
+              <th>Customer Id</th>
+              <th>Customer Name</th>
+              <th>Property</th>
+              <th>Customer Status</th>
+            </tr>
+            <tr>
+              <td>5</td>
+              <td>Mike Tyson</td>
+              <td>114 main lane </td>
+              <td>unass</td>
+            </tr>
+          </table>
+       </div>
+       <button type="button" class="btn btn-info btn-block">In Contract</button>
+       <div class="container unassigned-table-div">
+         <table>
+           <tr>
+             <th>Customer Id</th>
+             <th>Customer Name</th>
+             <th>Property</th>
+             <th>Customer Status</th>
+           </tr>
+           <tr>
+             <td>5</td>
+             <td>Mike Tyson</td>
+             <td>114 main lane </td>
+             <td>unass</td>
+           </tr>
+         </table>
+      </div>
+      <button type="button" class="btn btn-info btn-block">Sold</button>
+      <div class="container unassigned-table-div">
+        <table>
+          <tr>
+            <th>Customer Id</th>
+            <th>Customer Name</th>
+            <th>Property</th>
+            <th>Customer Status</th>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td>Mike Tyson</td>
+            <td>114 main lane </td>
+            <td>unass</td>
+          </tr>
+        </table>
+     </div>
         </div>
       </div>
     </div>

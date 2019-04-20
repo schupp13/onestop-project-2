@@ -24,11 +24,13 @@
       <h1>One Stop Realty</h1>
       <p>Lead Management Tool</p>
     </div>
-    <div class="container d-flex-column  form-container">
-      <div class="d-flex justify-content-center">
-        <h3>Login</h3>
-      </div>
+    <div class="container d-flex-column justify-content-center form-container">
+
+
         <form class="Login " action="index.html" method="post">
+          <div class="d-flex justify-content-center">
+            <h3>Login</h3>
+          </div>
           <div class="form-group">
             <label for="username">Username: </label>
             <input type="text" name="username" id="username" class="form-control">
